@@ -21,6 +21,9 @@
 
 /* Begin PBXFileReference section */
 		920D3CE328781A51009FC65D /* Moscow.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Moscow.xcassets; sourceTree = "<group>"; };
+		920D3CE528782098009FC65D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		920D3CE8287820DC009FC65D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		920D3CE9287820DC009FC65D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		922198422875798D0083ACFD /* TableViewWithImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewWithImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		922198452875798D0083ACFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		922198472875798D0083ACFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,9 +48,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		920D3CE7287820DC009FC65D /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				920D3CE8287820DC009FC65D /* 2.png */,
+				920D3CE9287820DC009FC65D /* 1.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		922198392875798D0083ACFD = {
 			isa = PBXGroup;
 			children = (
+				920D3CE528782098009FC65D /* README.md */,
+				920D3CE7287820DC009FC65D /* Screenshots */,
 				922198442875798D0083ACFD /* TableViewWithImages */,
 				922198432875798D0083ACFD /* Products */,
 			);
